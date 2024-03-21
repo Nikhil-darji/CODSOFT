@@ -1,0 +1,731 @@
+.akar-iconstwitter-fill,
+.akar-iconstwitter-fill1,
+.akar-iconstwitter-fill2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+
+.footer-child {
+  top: 0;
+  left: 0;
+  background-color: var(--color-primary-brown);
+  width: 100%;
+  height: 100%;
+}
+
+
+.footer,
+.menu {
+  position: absolute;
+  max-width: 100%;
+}
+.menu {
+  top: 100px;
+  left: 416px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.footer {
+  top: 6203px;
+  left: 0;
+  width: 1440px;
+  height: 248px;
+  color: var(--color-secondary-white);
+}
+
+
+
+.thebookly {
+  width: 241px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.books {
+  position: relative;
+  cursor: pointer;
+}
+.frames-with-books-kids-home-au {
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.kids2 {
+  position: relative;
+}
+.frames-with-books-kids-home-au1 {
+  height: 35px;
+  width: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+}
+.authors-group {
+  height: 35px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.authors1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+}
+.frames-with-books-kids-home-au2 {
+  width: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.trending {
+  position: relative;
+  cursor: pointer;
+}
+.authors-group1 {
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.login2 {
+  width: 63px;
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.login-frame-child {
+  height: 49px;
+  width: 123.6px;
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.frames-with-books-kids-home-au-parent,
+.login-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.login-frame {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-sm) var(--padding-sm) var(--padding-mini);
+  background-color: transparent;
+  width: 124px;
+  justify-content: center;
+  z-index: 1;
+}
+.frames-with-books-kids-home-au-parent {
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+  gap: 0 74px;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-montserrat);
+}
+.header-frame,
+.main-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.header-frame {
+  width: 1481px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.main-frame {
+  width: 1608px;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-18xl) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-peralta);
+}
+.authors2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+}
+.text-for-authors-name {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.choose-your-favorite {
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 166.4%;
+  font-family: var(--font-montez);
+}
+.books-mask,
+.mask-group-for-goethe {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mask-group-for-goethe {
+  flex-direction: column;
+  align-items: center;
+  gap: 46px 0;
+}
+.books-mask {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+}
+.mask-group-icon {
+  height: 546px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-with-j-k-rowling {
+  width: 389px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.goethe,
+.johann-wolfgang-von {
+  margin: 0;
+}
+.johann-wolfgang-von-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 166.4%;
+  z-index: 1;
+}
+.goethe-frame {
+  align-self: stretch;
+  height: 107px;
+  position: relative;
+  background-color: var(--color-lavenderblush);
+  margin-top: -120px;
+}
+.king-frame,
+.mask-group-for-rabindranath-ta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.king-frame {
+  align-self: stretch;
+  align-items: flex-start;
+  min-height: 120px;
+}
+.mask-group-for-rabindranath-ta {
+  width: 465px;
+  align-items: center;
+  gap: 11px 0;
+  max-width: 100%;
+}
+.frame-child,
+.mask-group-icon1 {
+  position: relative;
+  max-width: 100%;
+}
+.mask-group-icon1 {
+  width: 414px;
+  height: 546px;
+  object-fit: contain;
+}
+.frame-child {
+  height: 107px;
+  width: 465px;
+  background-color: var(--color-lavenderblush);
+  display: none;
+}
+.rabindranath-tagore {
+  flex: 1;
+  position: relative;
+  line-height: 166.4%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle-parent {
+  flex: 1;
+  background-color: var(--color-lavenderblush);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mid) 0 var(--padding-11xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.authors-mask,
+.rabindranath-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rabindranath-group {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 7px;
+  box-sizing: border-box;
+}
+.authors-mask {
+  width: 472px;
+  flex-direction: column;
+  gap: 32px 0;
+}
+.frame-item,
+.king-group-icon {
+  position: relative;
+  max-width: 100%;
+}
+.king-group-icon {
+  height: 576px;
+  flex: 1;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-item {
+  height: 107px;
+  width: 465px;
+  background-color: var(--color-lavenderblush);
+  display: none;
+}
+.j-k-rowling {
+  position: relative;
+  line-height: 166.4%;
+  z-index: 1;
+}
+.rectangle-group,
+.rowling-frame,
+.stephen-mask {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-group {
+  width: 465px;
+  margin: 0 !important;
+  position: absolute;
+  right: -57px;
+  bottom: -99px;
+  flex-direction: row;
+  padding: var(--padding-mid) var(--padding-50xl) var(--padding-11xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.rowling-frame,
+.stephen-mask {
+  max-width: 100%;
+}
+.stephen-mask {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.rowling-frame {
+  height: 688px;
+  width: 408px;
+  flex-direction: column;
+}
+.frame-with-rabindranath-tagore {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-peralta);
+}
+.author-frame,
+.choose-authors-frame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.author-frame {
+  width: 1537px;
+  flex-direction: column;
+  align-items: center;
+  gap: 79px 0;
+}
+.choose-authors-frame {
+  width: 1580px;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-49xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.frame-inner,
+.mask-group-icon2 {
+  position: relative;
+  max-width: 100%;
+}
+.mask-group-icon2 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-inner {
+  height: 107px;
+  width: 344px;
+  display: none;
+}
+.stephen-king {
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 166.4%;
+  font-family: var(--font-peralta);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.vector-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 21px 29px 26px 33px;
+  background-color: var(--color-lavenderblush);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.group-button:hover,
+.rectangle-container:hover,
+.vector-parent:hover {
+  background-color: var(--color-lightgray);
+}
+.authors-frame,
+.choose-authors-frame1,
+.stephen-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.stephen-group {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.authors-frame,
+.choose-authors-frame1 {
+  flex-direction: column;
+}
+.authors-frame {
+  width: 374px;
+  flex: 1;
+  gap: 29px 0;
+}
+.choose-authors-frame1 {
+  height: 688px;
+  width: 436px;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.mask-group-icon3 {
+  width: 414px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.frame-child1 {
+  height: 107px;
+  width: 465px;
+  position: relative;
+  background-color: var(--color-lavenderblush);
+  display: none;
+  max-width: 100%;
+}
+.alice-walker {
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 166.4%;
+  font-family: var(--font-peralta);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) 57px var(--padding-11xl);
+  background-color: var(--color-lavenderblush);
+  flex: 1;
+  flex-direction: row;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.goethemask,
+.kingmask,
+.rectangle-container,
+.tagoregroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.kingmask {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 19px;
+  box-sizing: border-box;
+}
+.goethemask,
+.tagoregroup {
+  flex-direction: column;
+}
+.tagoregroup {
+  align-self: stretch;
+  flex: 1;
+  gap: 32px 0;
+}
+.goethemask {
+  height: 688px;
+  width: 484px;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-child2,
+.jgtext-icon {
+  position: relative;
+  max-width: 100%;
+}
+.jgtext-icon {
+  width: 408px;
+  flex: 1;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child2 {
+  height: 107px;
+  width: 465px;
+  background-color: var(--color-lavenderblush);
+  display: none;
+}
+.neil-gaiman {
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 166.4%;
+  font-family: var(--font-peralta);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.group-button,
+.jgtext-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-50xl) var(--padding-11xl);
+  background-color: var(--color-lavenderblush);
+  align-self: stretch;
+  flex-direction: row;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.jgtext-parent {
+  height: 695px;
+  width: 465px;
+  flex-direction: column;
+  gap: 12px 0;
+}
+.authors-mask-group,
+.authors-mask-group-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.authors-mask-group {
+  width: 1555px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.authors-mask-group-wrapper {
+  width: 1608px;
+  justify-content: flex-end;
+}
+.authors {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lavenderblush);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 70px var(--padding-xl) 140px 124px;
+  box-sizing: border-box;
+  gap: 79px 0;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-primary-dark-brown);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1575px) {
+  .frames-with-books-kids-home-au-parent {
+    display: none;
+  }
+  .header-frame {
+    width: 370px;
+  }
+  .authors-mask-group,
+  .frame-with-rabindranath-tagore {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .frames-with-books-kids-home-au-parent {
+    gap: 0 74px;
+  }
+  .authors {
+    padding-left: 62px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .menu {
+    flex-wrap: wrap;
+  }
+  .footer {
+    height: auto;
+    min-height: 248;
+  }
+ 
+  .frames-with-books-kids-home-au-parent {
+    gap: 0 74px;
+  }
+  .authors2 {
+    font-size: var(--font-size-35xl);
+  }
+  .choose-your-favorite {
+    font-size: var(--font-size-10xl);
+    line-height: 48px;
+  }
+  .mask-group-for-goethe {
+    gap: 46px 0;
+  }
+  .johann-wolfgang-von-container {
+    font-size: var(--font-size-10xl);
+    line-height: 48px;
+  }
+  .authors-mask {
+    gap: 32px 0;
+  }
+  .j-k-rowling {
+    font-size: var(--font-size-10xl);
+    line-height: 48px;
+  }
+  .author-frame {
+    gap: 79px 0;
+  }
+  .tagoregroup {
+    gap: 32px 0;
+  }
+  .authors {
+    gap: 79px 0;
+    padding-left: 31px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+
+  .find-the-best {
+    font-size: 47px;
+    line-height: 47px;
+  }
+  .authors2 {
+    font-size: var(--font-size-22xl);
+  }
+  .choose-your-favorite,
+  .j-k-rowling,
+  .johann-wolfgang-von-container {
+    font-size: var(--font-size-3xl);
+    line-height: 36px;
+  }
+  .author-frame {
+    gap: 79px 0;
+  }
+  .group-button,
+  .rectangle-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .authors {
+    gap: 79px 0;
+  }
+}
