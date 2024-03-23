@@ -1,0 +1,375 @@
+.contact-us1 {
+    margin: 0;
+    align-self: stretch;
+    height: 100px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .name {
+    position: relative;
+    z-index: 4;
+  }
+  .name-email-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 6px;
+  }
+  .email {
+    position: relative;
+    z-index: 4;
+  }
+  .name-email-frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 5px;
+  }
+  .write-something {
+    align-self: stretch;
+    position: relative;
+    text-align: left;
+    z-index: 4;
+  }
+  .email-frame {
+    width: 184px;
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 95px 0;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-100);
+    font-family: var(--font-roboto);
+  }
+  .submit-button {
+    height: 56px;
+    width: 134px;
+    position: relative;
+    background-color: var(--color-gray-200);
+    display: none;
+  }
+  .submit {
+    position: relative;
+    font-size: 24px;
+    font-family: var(--font-roboto);
+    color: #000;
+    text-align: center;
+    z-index: 1;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) 28px var(--padding-sm) 29px;
+    background-color: var(--color-gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+  }
+  .button:hover {
+    background-color: rgba(224, 227, 227, 0.65);
+  }
+  .button-frame,
+  .contact-us-text,
+  .rectangle-frame {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .rectangle-frame {
+    width: 368px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .button-frame,
+  .contact-us-text {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .button-frame {
+    align-self: stretch;
+    gap: 50px 0;
+  }
+  .contact-us-text {
+    width: 402px;
+    padding: 122px 0 0;
+    box-sizing: border-box;
+    min-width: 402px;
+  }
+  .carveli-logo-child {
+    height: 1268px;
+    width: 1848px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -887px;
+    left: -983px;
+    object-fit: cover;
+  }
+  .three-rectangles-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1363px;
+    height: 1000px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .c-a-r-v-e-l-i-label {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #e5e5e5;
+    box-shadow: 7.7px -7.7px 7.7px rgba(149, 149, 149, 0.1) inset,
+      -7.7px 7.7px 7.7px rgba(255, 255, 255, 0.1) inset;
+    backdrop-filter: blur(15.4px);
+    border: 8px solid rgba(229, 229, 229, 0.54);
+    box-sizing: border-box;
+    width: 735px;
+    z-index: 2;
+  }
+  .rectangle-rectangle-rectangle,
+  .rectangle-rectangle-rectangle1,
+  .rectangle-rectangle-rectangle2 {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gray-300);
+    position: absolute;
+    top: 276px;
+    left: 126px;
+    border-radius: var(--br-3xs);
+    width: 436px;
+    height: 66px;
+    z-index: 3;
+  }
+  .rectangle-rectangle-rectangle1,
+  .rectangle-rectangle-rectangle2 {
+    top: 392px;
+  }
+  .rectangle-rectangle-rectangle2 {
+    height: 212px;
+    top: 508px;
+  }
+  .three-rectangles {
+    height: 1000px;
+    width: 1363px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -794px;
+    left: -754px;
+  }
+  .carveli,
+  .carveli-logo {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+  }
+  .carveli {
+    margin: 0;
+    height: 179px;
+    flex: 1;
+    font-size: inherit;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-family: inherit;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke: 2px rgba(251, 252, 253, 0.94);
+    z-index: 2;
+  }
+  .carveli-logo {
+    width: 636px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 636px;
+    font-size: 96px;
+    color: transparent;
+    font-family: var(--font-roboto);
+  }
+  .carveli-input-field {
+    height: 100%;
+    width: calc(100% - 147px);
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 147px;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+  }
+  .carveli-contact-us,
+  .contact-us-text-parent {
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .contact-us-text-parent {
+    width: 1995px;
+    display: flex;
+    justify-content: space-between;
+    padding: 202px 376px 257px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 20px;
+  }
+  .carveli-contact-us {
+    margin-bottom: -49px;
+    align-self: stretch;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: 0 0 82px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 36px;
+    color: #303234;
+    font-family: var(--font-scope-one);
+  }
+  .carveli-contact-us,
+  .contact-us,
+  .contact-us-frame {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .contact-us-frame {
+    height: 1301px;
+    width: 2051px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    max-width: 100%;
+  }
+  .contact-us {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 132px 214px 0;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 2150px) {
+    .carveli-logo,
+    .contact-us-text {
+      flex: 1;
+      min-width: 100%;
+    }
+    .contact-us-text-parent {
+      flex-wrap: wrap;
+    }
+    .contact-us-frame {
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 1575px) {
+    .carveli-logo,
+    .contact-us-text {
+      flex: 1;
+    }
+    .contact-us-text-parent {
+      flex-wrap: wrap;
+      padding: 131px 188px 167px;
+      box-sizing: border-box;
+    }
+    .carveli-contact-us {
+      padding-bottom: var(--padding-34xl);
+      box-sizing: border-box;
+    }
+    .contact-us-frame {
+      height: auto;
+    }
+    .contact-us {
+      padding-left: var(--padding-88xl);
+      padding-right: var(--padding-88xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .contact-us1 {
+      font-size: var(--font-size-10xl);
+    }
+    .contact-us-text {
+      flex: 1;
+      padding-top: 79px;
+      box-sizing: border-box;
+    }
+    .carveli {
+      font-size: 48px;
+    }
+    .carveli-logo {
+      flex: 1;
+    }
+    .contact-us-text-parent {
+      flex-wrap: wrap;
+      padding: 85px 94px 109px;
+      box-sizing: border-box;
+    }
+    .carveli-contact-us {
+      padding-bottom: 34px;
+      box-sizing: border-box;
+    }
+    .contact-us-frame {
+      height: auto;
+    }
+    .contact-us {
+      padding-left: var(--padding-34xl);
+      padding-right: var(--padding-34xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .contact-us1 {
+      font-size: 22px;
+    }
+    .submit {
+      font-size: 19px;
+    }
+    .button-frame {
+      gap: 50px 0;
+    }
+    .contact-us-text {
+      flex: 1;
+      padding-top: 51px;
+      box-sizing: border-box;
+    }
+    .carveli {
+      font-size: var(--font-size-10xl);
+    }
+    .carveli-logo {
+      flex: 1;
+    }
+    .contact-us-text-parent {
+      flex-wrap: wrap;
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .contact-us-frame {
+      height: auto;
+    }
+    .contact-us {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
